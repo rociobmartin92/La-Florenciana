@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valle Blanco</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="nav2">
+        <a href="#contactos_personales"><li class="li2"> CREAR CUENTA</li></a> 
+        <li class="li2"> INICIAR SESIÓN </li>
+        
+            </div>
+
+    </div>
+
+    <header>
+        <img class="logo" src="./imagenes/59729423_2676299362398978_2723894926575140864_n.png" alt="logo">
+
+    </header>
+
+
+    <nav class="navegador">
+      <a href="#main" class="anavli"><li class="navli1" id="navli">Productos </li></a>  
+        <li class="linea"> | </li>
+       <li class="navli2" id="navli2" onclick="contacto()">Contacto</li>
+    </nav>
+
+
+    <div class="slide">
+<ul>
+    <li><img src="./imagenes/cosmetica_natural-go_organic-fridda_dorsch-portada.jpg" alt=""></li>
+    <li><img src="./imagenes/R.jfif" alt=""></li>
+    <li><img src="./imagenes/MaminatCosmeticanatural.jpg" alt=""></li>
+    <li><img src="./imagenes/img-aloe-vera-2018-013.jpg" alt=""></li>
+</ul>
+      
+    </div>
+
+    <main id="main">
+
+        <li class="lip">
+            <img class="producto"  src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif" alt="producto1"">
+            <p class="pn" id="pn1">Nombre del Producto</p>
+            <p class="precio" id="precio1">$380</p>
+            <button class="ac" onclick="agregar_prod1()"> Agregar al Carrito </button>
+
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif" alt="producto2"">
+            <p class="pn" id="pn2">Nombre del Producto</p>
+            <p class="precio" id="precio2">$125</p>
+            <button class="ac" onclick="agregar_prod2()"> Agregar al Carrito </button>
+
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif"">
+            <p class="pn" id="pn3">Nombre del Producto</p>
+            <p class="precio" id="precio3">$148</p>
+            <button class="ac" onclick="agregar_prod3()"> Agregar al Carrito </button>
+
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif">
+            <p class="pn" id="pn4">Nombre del Producto</p>
+            <p class="precio" id="precio4">$332</p>
+            <button class="ac" onclick="agregar_prod4()"> Agregar al Carrito </button>
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif">
+            <p class="pn" id="pn5">Nombre del Producto</p>
+            <p class="precio" id="precio5">$224</p>
+            <button class="ac" onclick="agregar_prod5()"> Agregar al Carrito </button>
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif">
+            <p class="pn" id="pn6">Nombre del Producto</p>
+            <p class="precio" id="precio6">$192</p>
+            <button class="ac" onclick="agregar_prod6()"> Agregar al Carrito </button>
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif">
+            <p class="pn" id="pn7">Nombre del Producto</p>
+            <p class="precio" id="precio7">$378</p>
+            <button class="ac" onclick="agregar_prod7()" > Agregar al Carrito </button>
+        </li>
+        <li class="lip">
+            <img class="producto" src="./imagenes/shampoo-solido-kids-30g-cosmeticos.jfif">
+            <p class="pn" id="pn8">Nombre del Producto</p>
+            <p class="precio" id="precio8">$254</p>
+            <button class="ac" onclick="agregar_prod8()"> Agregar al Carrito </button>
+        </li>
+        <div class="alinear">
+            <p id="num_car" class="mcarr" >  </p>
+            <a href="#c_div"><img src="./imagenes/compras-blanco-png.png" class="carrito" id="carrito"></a>  
+        </div>
+    </main>
+
+    <div class="redes">
+
+
+        <div class="red">
+            <img class="logored" src="./imagenes/instagram.png" alt="Logo Insta">
+
+        </div>
+
+        <div class="red" id="text">
+
+            <p class="insta"> Seguinos en Instagram: </p>
+            <a class="insta" href="#">laflorenciana_</a>
+        </div>
+
+        <div class="red" id="linea2"> | </div>
+
+        <div class="red" id="redesa">
+            <img class="logored" src="./imagenes/whatsapp.png" id="wp" alt="Logo Whats">
+        </div>
+
+        <div class="red" id="text2">
+            <p class="insta"> Whatsapp Chat:</p>
+            <a class="insta" href="#">wa.link/08bqi4</a>
+        </div>
+        <p class="envios">ENVIOS GRATIS VILLA REGINA</p>
+    </div>
+
+
+    <div class="pagos">
+
+        <p id="pag"> PAGA COMO QUIERAS</p>
+        <li class="pg" id="logoef">
+            <img id="imgefe" class="efectivo" src="./imagenes/banknote-with-dollar-sign_1f4b5.png" alt="Logo Efectivo">
+            <p class="ef">Efectivo</p>
+        </li>
+        <li class="pg" id="logomerc">
+            <img class="mp" src="./imagenes/logo-mercado-pago-icone-1024.png" alt="Logo Mercado Pago">
+            <p class="ef" id="pmer">Mercado Pago</p>
+        </li>
+        <li class="pg" id="logobanco">
+            <img class="tb" src="./imagenes/Sin título.png" alt="Banco" id="imgb">
+            <p class="ef" id="ptf">Transferencia</p>
+        </li>
+
+    </div>
+
+    <footer>
+        <p class="rocio">Pagina Web creada por Rocío Martin</p>
+        <p class="rocio"> martinrocio.1992@gmail.com</p>
+    </footer>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+    <hr>
+    <hr>
+    <hr>
+
+
+<br> 
+
+    <div id="c_div">
+
+        
+<div class="c_header">
+
+     
+    <img class="c_logo" src="./imagenes/59729423_2676299362398978_2723894926575140864_n.png" alt="logo">
+    <h1 class="c_titutlo"> Carrito </h1>
+</div>
+
+        <div class="c_main">
+
+    
+            <div class="principal">
+            
+            <div class="centrar">
+                
+                <table id="aqui">
+                </table>
+            </div>
+               
+                
+            <button id="boton_total" class="boton_total" onclick="suma()">Calcular Total</button>
+                
+            </div>
+            
+            <div id="contactos_personales">
+                <p class="dc">DATOS DE CONTACTO</p>
+                <p class="datos">Nombre y Apellido:</p> <input type="text" class="input" placeholder="Nombre y Apellido" required>   
+                <p class="datos">Email:</p> <input type="email" placeholder="Email" class="input" required>  
+                <p class="datos">Teléfono:</p><input type="tel" class="input" required placeholder="Whatsapp">   
+                <p class="datos">Localidad:</p>  <select name="" class="input">
+                    <option value="VR"> Villa Regina</option>
+                </select>   
+                <p class="datos">Barrio:</p><input type="text" class="input" required placeholder="Barrio">    
+                <p class="datos">Dirección:</p> <input type="text" class="input" required placeholder="Dirección">  
+                <p class="datos">Horario de entrega preferido:</p>  <select name="" class="input">
+                    <option value="16:00"> 16:00 </option>
+                    <option value="16:15"> 16:15 </option>
+                    <option value="16:30"> 16:30 </option>
+                    <option value="16:45"> 16:45 </option>
+                    <option value="17:00"> 17:00 </option>
+                    <option value="17:15"> 17:15 </option>
+                    <option value="17:30"> 17:30 </option>
+                    <option value="17:45"> 17:45 </option>
+                    <option value="18:00"> 18:00 </option>
+                    <option value="18:15"> 18:15 </option>
+                    <option value="18:30"> 18:30 </option>
+                    <option value="18:45"> 18:45 </option>
+                    <option value="19:00"> 19:00 </option>
+                </select> 
+                <br> <br>
+               <button class="boton" onclick="enviar()">Enviar</button>
+                
+            </div>
+            
+        </div>
+        
+    <br>
+    
+    <div class="medios">
+        <p class="dcp">MEDIOS DE PAGO</p>
+    
+        <li class="datos">Transferencia Bancaria: CBU: </li>
+        
+        <li class="datos">Mercado Pago: CBU: </li>
+        
+        <li class="datos">Efectivo: Momento de entrega </li>
+    </div>
+    
+
+      
+        <footer>
+            <p class="rocio">Pagina Web creada por Rocío Martin</p>
+            <p class="rocio"> martinrocio.1992@gmail.com</p>
+        </footer>
+
+    </div>
+
+    <script src="./JS/productos.js"></script>
+    <script src="./JS/funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./JS/sweetalert.js"></script>
+ 
+</body>
+
+</html>
+

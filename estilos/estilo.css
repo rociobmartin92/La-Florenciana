@@ -1,0 +1,473 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 30vw;
+    height: auto;
+    
+    border-bottom: #a8804b solid 0.1vw;
+}
+
+header {
+    text-align: center;
+    }
+
+nav {
+    margin-top: 0.8vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    
+}
+.navli1 {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 2.2vw;
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+}
+
+.navli1:hover, .navli2:hover {
+    color: #d8b544;
+    border-bottom: #c29964 0.1vw solid;
+}
+
+.navli2 {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 2.2vw;
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+}
+
+.linea {
+    display: inline-block;
+    color: #bb8d51;
+    font-size: 2.2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+main {
+    text-align: center;
+    margin-bottom: 7vw;
+}
+
+.producto {
+width: 19vw;
+margin: 0vw 1vw 0vw 0vw;
+padding-bottom: 0.2vw;
+height: auto;
+}
+
+.lip {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 2.5vw;
+    width: 22vw;
+  
+}
+
+.pn {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7vw;
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
+    width: 22vw;
+}
+
+.precio {
+    color: #d3aa75;
+    font-size: 1.3vw;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 0.1vw;
+    margin-top: 0.1vw;
+    font-weight: bold;
+}
+
+.ac {
+    color: white;
+    font-weight: bold;
+    width: 10vw;
+    height: auto;
+    font-size: 1.2vw;
+    font-family: 'Mukta', sans-serif;
+    padding: 0.1vw;
+    background: #e0bd8e;
+    border: dashed white 0.1vw;
+    cursor: pointer;
+    border-radius: 1vw;
+}
+
+.ac:hover {
+    background-color: black;
+    color: white;
+}
+
+.redes {
+    background: linear-gradient(#fefeff, white, #DEB887);
+padding: 0.5vw;
+text-align: center;
+padding-top: 2vw;
+
+}
+
+.red {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+  margin-left: 0.8vw;
+  margin-right: 0.8vw;
+}
+
+#linea2 {
+    font-size: 4vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+}
+
+.logored {
+    width: 3.7vw;
+    height: auto;
+    }
+
+.insta {
+    color: black;
+    font-size: 2.1vw;
+}
+
+#text, #text2 {
+    line-height: 17%;
+    font-family:'Cormorant Garamond', serif;
+}
+
+#wp {
+    width: 3.9vw;
+    height: auto;
+}
+
+.envio {
+
+    width: 35vw;
+    text-align: center;
+}
+
+
+.envios {
+    font-family:'Cormorant Garamond', serif;
+    font-size: 1.7vw;
+    margin-top: 2.5vw;
+}
+
+.pagos {
+text-align: center;
+}
+
+.pagos {
+    text-align: center;
+}
+
+.pg {
+    list-style: none;
+    display: inline-block;
+    border: solid 0.2vw #a8a8a8;
+    margin: 1.5vw;
+}
+
+.efectivo {
+    width: 5vw;
+    height: auto;
+    padding-top: 2vw;
+}
+
+.mp {
+    width: 5vw;
+    height: auto;
+    margin-top: 2vw;
+    padding-top: 0vw;
+    padding-bottom: 0.2vw;
+}
+
+.tb {
+    width: 4vw;
+    height: auto;
+}
+
+.ef {
+    color: white;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 2vw;
+}
+
+#logoef {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 0.5vw;
+}
+
+#logomerc {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#pag {
+    margin-top: 5vw;
+    color: white;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 1.8vw;
+}
+
+#pmer {
+    padding-bottom: 0.5vw;
+}
+
+#ptf {
+    padding-bottom: 0.5vw;
+}
+
+#imgb {
+    padding-top: 1.3vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#logobanco {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#imgefe {
+    padding-bottom: 0.2vw;
+}
+
+
+.li2 {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 1.1vw;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.carrito {
+    width: 3vw;
+    cursor: pointer;
+}
+
+.alinear {
+    margin-top: 5vw;
+   
+}
+
+.mcarr {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+    margin-left: 1.2vw;
+    font-size: 2vw;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5vw;
+}
+
+.rocio {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    margin: 0.2vw;
+}
+
+
+.slide {
+    margin-top: 0vw;
+    text-align: center;
+    margin-bottom: 3vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+}
+
+.slide ul {
+    padding: 0vw;
+    display: flex;
+    animation: cambio 10s infinite;
+    width: 400%;
+}
+
+.slide li {
+    list-style: none;
+    width: 100%;
+}
+
+.slide li img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+ @keyframes cambio {
+     0% {margin-left: 0%;}
+     20% {margin-left: 0%;}
+
+     25% {margin-left: -100%;}
+     45% {margin-left: -100%;}
+
+     50% {margin-left: -200%;}
+     70% {margin-left: -200%;}
+
+     75% {margin-left: -300%;}
+     100% {margin-left: -300%;}
+ }
+
+ .alert_title {
+   font-size: 1.8vw;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    width: 15vw;
+    padding: 1vw 0vw 1vw 0vw;
+    margin-left: 9vw;
+ }
+
+
+
+
+
+
+ .c_titutlo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw;
+    color: #dbb949;
+    font-weight: lighter;
+}
+
+ .datos {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.9vw;
+    margin-bottom: 0.9vw;
+}
+
+.input {
+    width: 16vw;
+    padding: 0.6vw;
+    font-size: 1vw;
+}
+
+.c_header {
+    text-align: center;
+}
+
+.c_logo {
+    width: 18vw;
+    height: auto;
+    border: #db9c49 dashed 0.1vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    margin-bottom: 5vw;
+}
+
+
+.dc {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8vw;
+    width: 20vw;
+    border-bottom: #db9c49 solid 0.1vw;
+    text-align: center;
+}
+
+.dcp {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8vw;
+    width: 15vw;
+    border-bottom: #db9c49 solid 0.1vw;
+    text-align: center;
+}
+
+.boton {
+    padding: 0.3vw;
+    width: 6vw;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5vw;
+    background-color: #af8854;
+   margin-left: 4vw;
+   margin-top: 2vw;
+   cursor: pointer;
+}
+
+.medios {
+    margin-top: 4vw;
+}
+
+.rocio {
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    margin: 0.2vw;
+}
+
+.boton_car {
+    padding: 0.45vw;
+    width: 7vw;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5vw;
+    background-color: black;
+    border: #c29964 0.2vw solid;
+   margin-bottom: 2vw;
+   margin-top: 2vw;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.boton_total {
+    padding: 0.45vw;
+    width: 10vw;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5vw;
+    background-color: black;
+    border: #c29964 0.2vw solid;
+   margin-bottom: 2vw;
+   margin-top: 2vw;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.principal {
+    background: url(../imagenes/bardas.jpg);
+    text-align: center;
+}
+
+
+
+.centrar {
+    margin-left: 22vw;
+}
+
+.nav_car1, .nav_car2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.3vw;
+    list-style: none;
+    font-weight: bold;
+ padding: 1vw 5vw 2vw 5vw;
+}
+
+.putos {
+font-size: 2.5vw;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    background-color: black;
+
+}
