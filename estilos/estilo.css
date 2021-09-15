@@ -464,10 +464,10 @@ footer {
  padding: 1vw 5vw 2vw 5vw;
 }
 
-.putos {
-font-size: 2.5vw;
-    font-family: 'Cormorant Garamond', serif;
-    color: white;
-    background-color: black;
 
+.btnborrar {
+    font-size: 1.8vw;
+    cursor: pointer;
+   padding-bottom: 0.9vw;
+   margin-bottom: 0.9vw;
 }
