@@ -57,25 +57,42 @@ function agregar_prod1(){
   
   var nuevotd_pro = document.createElement("td");
   var nuevotd_pre = document.createElement("td");
+  var nuevo_btn = document.createElement("td");
   
   nuevotr_pro.appendChild(nuevotd_pro);
   nuevotr_pro.appendChild(nuevotd_pre);
+  nuevotr_pro.appendChild(nuevo_btn);
   
   var productotxt = document.createTextNode(prod1);
   var preciotxt = document.createTextNode(pre1);  
+  var btnx = document.createTextNode("x");
   
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
-
+  nuevo_btn.appendChild(btnx);
   
-
+  
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
   
   SumProd.push(precionum1);
 
   console.log(SumProd);
+
+nuevo_btn.addEventListener("click", eliminar_prod);
+
+function eliminar_prod() {
+
+ 
+  this.parentNode.removeChild(nuevotd_pro);
+  this.parentNode.removeChild(nuevotd_pre);
+  this.parentNode.removeChild(this);
+
+  SumProd.shift(precionum1);
+}
 
 }
 
@@ -88,23 +105,40 @@ function agregar_prod2(){
   
   var nuevotd_pro = document.createElement("td");
   var nuevotd_pre = document.createElement("td");
-  
+  var nuevo_btn = document.createElement("td");
+
   nuevotr_pro.appendChild(nuevotd_pro);
   nuevotr_pro.appendChild(nuevotd_pre);
-  
+  nuevotr_pro.appendChild(nuevo_btn);
+
   var productotxt = document.createTextNode(prod2);
   var preciotxt = document.createTextNode(pre2);  
-  
+  var btnx = document.createTextNode("x");
+
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
-  
+  nuevo_btn.appendChild(btnx);
+
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
   
   SumProd.push(precionum2);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+  this.parentNode.removeChild(nuevotd_pro);
+  this.parentNode.removeChild(nuevotd_pre);
+  this.parentNode.removeChild(this);
+
+  SumProd.shift(precionum2);
+}
 }
 
 function agregar_prod3(){
@@ -115,23 +149,40 @@ function agregar_prod3(){
   
   var nuevotd_pro = document.createElement("td");
   var nuevotd_pre = document.createElement("td");
-  
+  var nuevo_btn = document.createElement("td");
+
   nuevotr_pro.appendChild(nuevotd_pro);
   nuevotr_pro.appendChild(nuevotd_pre);
-  
+   nuevotr_pro.appendChild(nuevo_btn);
+
   var productotxt = document.createTextNode(prod3);
   var preciotxt = document.createTextNode(pre3);  
+var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum3);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum3);
+  }
 }
 
 function agregar_prod4(){
@@ -142,23 +193,40 @@ function agregar_prod4(){
 
  var nuevotd_pro = document.createElement("td");
  var nuevotd_pre = document.createElement("td");
+ var nuevo_btn = document.createElement("td");
 
  nuevotr_pro.appendChild(nuevotd_pro);
  nuevotr_pro.appendChild(nuevotd_pre);
+ nuevotr_pro.appendChild(nuevo_btn);
 
  var productotxt = document.createTextNode(prod4);
   var preciotxt = document.createTextNode(pre4);  
+  var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+  nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum4);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum4);
+  }
 }
 
 function agregar_prod5(){
@@ -169,23 +237,40 @@ function agregar_prod5(){
 
  var nuevotd_pro = document.createElement("td");
  var nuevotd_pre = document.createElement("td");
+ var nuevo_btn = document.createElement("td");
 
  nuevotr_pro.appendChild(nuevotd_pro);
  nuevotr_pro.appendChild(nuevotd_pre);
+ nuevotr_pro.appendChild(nuevo_btn);
 
  var productotxt = document.createTextNode(prod5);
   var preciotxt = document.createTextNode(pre5);  
+var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum5);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum5);
+  }
 }
 
 function agregar_prod6(){
@@ -196,23 +281,40 @@ function agregar_prod6(){
 
  var nuevotd_pro = document.createElement("td");
  var nuevotd_pre = document.createElement("td");
+ var nuevo_btn = document.createElement("td");
 
  nuevotr_pro.appendChild(nuevotd_pro);
  nuevotr_pro.appendChild(nuevotd_pre);
+ nuevotr_pro.appendChild(nuevo_btn);
 
  var productotxt = document.createTextNode(prod6);
   var preciotxt = document.createTextNode(pre6);  
+  var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+  nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum6);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum6);
+  }
 }
 
 function agregar_prod7(){
@@ -223,23 +325,40 @@ function agregar_prod7(){
 
  var nuevotd_pro = document.createElement("td");
  var nuevotd_pre = document.createElement("td");
+ var nuevo_btn = document.createElement("td");
 
  nuevotr_pro.appendChild(nuevotd_pro);
  nuevotr_pro.appendChild(nuevotd_pre);
+ nuevotr_pro.appendChild(nuevo_btn);
 
  var productotxt = document.createTextNode(prod7);
   var preciotxt = document.createTextNode(pre7);  
+var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum7);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum7);
+  }
 }
 
 function agregar_prod8(){
@@ -250,23 +369,40 @@ function agregar_prod8(){
 
  var nuevotd_pro = document.createElement("td");
  var nuevotd_pre = document.createElement("td");
+ var nuevo_btn = document.createElement("td");
 
  nuevotr_pro.appendChild(nuevotd_pro);
  nuevotr_pro.appendChild(nuevotd_pre);
+ nuevotr_pro.appendChild(nuevo_btn);
 
  var productotxt = document.createTextNode(prod8);
   var preciotxt = document.createTextNode(pre8);  
+  var btnx = document.createTextNode("x");
 
   nuevotd_pro.appendChild(productotxt);
   nuevotd_pre.appendChild(preciotxt);
+  nuevo_btn.appendChild(btnx);
 
   nuevotd_pro.className = "nav_car1";
   nuevotd_pre.className = "nav_car2";
+  nuevo_btn.className = "btnborrar";
+
   div.appendChild(nuevotr_pro);
 
   SumProd.push(precionum8);
 
   console.log(SumProd);
+
+  nuevo_btn.addEventListener("click", eliminar_prod);
+  function eliminar_prod() {
+
+ 
+    this.parentNode.removeChild(nuevotd_pro);
+    this.parentNode.removeChild(nuevotd_pre);
+    this.parentNode.removeChild(this);
+  
+    SumProd.shift(precionum8);
+  }
 }
 
 
@@ -318,5 +454,4 @@ function contacto() {
 for(var i=0; i<ac_btn.length; i++) {
   ac_btn[i].addEventListener("click", agregarcarrito);
 }
-
 
