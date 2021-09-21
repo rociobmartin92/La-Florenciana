@@ -1,4 +1,4 @@
-# Valle-Blanco
+# La Florenciana
 
 This is my first web app, only html CSS and vanilla JavaScript.
 year: 2018 
