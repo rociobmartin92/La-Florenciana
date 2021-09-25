@@ -1,7 +1,7 @@
 # La Florenciana
 
 This is my first web app, made only with HTML, CSS and JavaScript.
-year: 2018..
+by the year 2019
 
 
 
