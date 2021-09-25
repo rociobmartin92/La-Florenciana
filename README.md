@@ -1,7 +1,7 @@
 # La Florenciana
 
-This is my first web, made only with HTML, CSS and JavaScript.
-by the year 2019
+This is my first web, made with HTML, CSS and JavaScript only.
+By the year 2019
 
 
 
