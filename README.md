@@ -1,6 +1,6 @@
 # La Florenciana
 
-My first web, made with HTML, CSS, JavaScript only.
+My first web app, made with HTML, CSS, JavaScript only.
  year 2019
 
 
